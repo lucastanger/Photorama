@@ -16,6 +16,8 @@
 		2C26E9D5243F604500E097BF /* PhotoramaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26E9D4243F604500E097BF /* PhotoramaTests.swift */; };
 		2C26E9E0243F604500E097BF /* PhotoramaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26E9DF243F604500E097BF /* PhotoramaUITests.swift */; };
 		2C26E9F0243F608100E097BF /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26E9EF243F608100E097BF /* PhotosViewController.swift */; };
+		2C26E9F22441F73A00E097BF /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26E9F12441F73A00E097BF /* FlickrAPI.swift */; };
+		2C26E9F42441F9F600E097BF /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26E9F32441F9F600E097BF /* PhotoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		2C26E9DF243F604500E097BF /* PhotoramaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoramaUITests.swift; sourceTree = "<group>"; };
 		2C26E9E1243F604500E097BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C26E9EF243F608100E097BF /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		2C26E9F12441F73A00E097BF /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		2C26E9F32441F9F600E097BF /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				2C26E9BF243F603E00E097BF /* SceneDelegate.swift */,
 				2C26E9C1243F603E00E097BF /* ViewController.swift */,
 				2C26E9C3243F603E00E097BF /* Main.storyboard */,
+				2C26E9F12441F73A00E097BF /* FlickrAPI.swift */,
+				2C26E9F32441F9F600E097BF /* PhotoStore.swift */,
 				2C26E9C6243F604400E097BF /* Assets.xcassets */,
 				2C26E9C8243F604400E097BF /* LaunchScreen.storyboard */,
 				2C26E9CB243F604400E097BF /* Info.plist */,
@@ -266,6 +272,8 @@
 				2C26E9F0243F608100E097BF /* PhotosViewController.swift in Sources */,
 				2C26E9BE243F603E00E097BF /* AppDelegate.swift in Sources */,
 				2C26E9C0243F603E00E097BF /* SceneDelegate.swift in Sources */,
+				2C26E9F42441F9F600E097BF /* PhotoStore.swift in Sources */,
+				2C26E9F22441F73A00E097BF /* FlickrAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,6 +22,7 @@
 		2C50BD5F24507A9900C726FB /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50BD5E24507A9900C726FB /* PhotoDataSource.swift */; };
 		2C50BD6124507DD200C726FB /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50BD6024507DD200C726FB /* PhotoCollectionViewCell.swift */; };
 		2C50BD632451FF3500C726FB /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50BD622451FF3500C726FB /* ImageStore.swift */; };
+		2CE9F4542452007E00A0633C /* PhotoInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE9F4532452007E00A0633C /* PhotoInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		2C50BD5E24507A9900C726FB /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
 		2C50BD6024507DD200C726FB /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		2C50BD622451FF3500C726FB /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		2CE9F4532452007E00A0633C /* PhotoInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				2C50BD5E24507A9900C726FB /* PhotoDataSource.swift */,
 				2C50BD6024507DD200C726FB /* PhotoCollectionViewCell.swift */,
 				2C26E9C1243F603E00E097BF /* ViewController.swift */,
+				2CE9F4532452007E00A0633C /* PhotoInfoViewController.swift */,
 				2C26E9C3243F603E00E097BF /* Main.storyboard */,
 				2C26E9F12441F73A00E097BF /* FlickrAPI.swift */,
 				2C26E9F32441F9F600E097BF /* PhotoStore.swift */,
@@ -287,6 +290,7 @@
 				2C26E9C0243F603E00E097BF /* SceneDelegate.swift in Sources */,
 				2C4DDD97244204FB00029036 /* PhotosViewController.swift in Sources */,
 				2C50BD6124507DD200C726FB /* PhotoCollectionViewCell.swift in Sources */,
+				2CE9F4542452007E00A0633C /* PhotoInfoViewController.swift in Sources */,
 				2C50BD5F24507A9900C726FB /* PhotoDataSource.swift in Sources */,
 				2C26E9F42441F9F600E097BF /* PhotoStore.swift in Sources */,
 				2C26E9F22441F73A00E097BF /* FlickrAPI.swift in Sources */,

@@ -21,6 +21,7 @@
 		2C4DDD97244204FB00029036 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4DDD96244204FB00029036 /* PhotosViewController.swift */; };
 		2C50BD5F24507A9900C726FB /* PhotoDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50BD5E24507A9900C726FB /* PhotoDataSource.swift */; };
 		2C50BD6124507DD200C726FB /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50BD6024507DD200C726FB /* PhotoCollectionViewCell.swift */; };
+		2C50BD632451FF3500C726FB /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50BD622451FF3500C726FB /* ImageStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		2C4DDD96244204FB00029036 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		2C50BD5E24507A9900C726FB /* PhotoDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataSource.swift; sourceTree = "<group>"; };
 		2C50BD6024507DD200C726FB /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C50BD622451FF3500C726FB /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		2C26E9BC243F603E00E097BF /* Photorama */ = {
 			isa = PBXGroup;
 			children = (
+				2C50BD622451FF3500C726FB /* ImageStore.swift */,
 				2C26E9BD243F603E00E097BF /* AppDelegate.swift */,
 				2C26E9BF243F603E00E097BF /* SceneDelegate.swift */,
 				2C50BD5E24507A9900C726FB /* PhotoDataSource.swift */,
@@ -280,6 +283,7 @@
 				2C4DDD952441FEB800029036 /* Photo.swift in Sources */,
 				2C26E9C2243F603E00E097BF /* ViewController.swift in Sources */,
 				2C26E9BE243F603E00E097BF /* AppDelegate.swift in Sources */,
+				2C50BD632451FF3500C726FB /* ImageStore.swift in Sources */,
 				2C26E9C0243F603E00E097BF /* SceneDelegate.swift in Sources */,
 				2C4DDD97244204FB00029036 /* PhotosViewController.swift in Sources */,
 				2C50BD6124507DD200C726FB /* PhotoCollectionViewCell.swift in Sources */,

@@ -101,7 +101,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="xk9-1X-Icf"/>
                     <connections>
-                        <outlet property="imageView" destination="ReA-NV-UTg" id="GCO-Rw-0bh"/>
+                        <outlet property="imageView" destination="ReA-NV-UTg" id="RqR-Sh-Kqa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tg6-pj-AhK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

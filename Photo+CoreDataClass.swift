@@ -2,7 +2,7 @@
 //  Photo+CoreDataClass.swift
 //  Photorama
 //
-//  Created by Luca Stanger on 25.04.20.
+//  Created by Luca Stanger on 03.05.20.
 //  Copyright © 2020 Luca Stanger. All rights reserved.
 //
 //

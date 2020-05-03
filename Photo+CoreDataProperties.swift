@@ -2,7 +2,7 @@
 //  Photo+CoreDataProperties.swift
 //  Photorama
 //
-//  Created by Luca Stanger on 25.04.20.
+//  Created by Luca Stanger on 03.05.20.
 //  Copyright © 2020 Luca Stanger. All rights reserved.
 //
 //
@@ -21,5 +21,23 @@ extension Photo {
     @NSManaged public var remoteURL: NSURL?
     @NSManaged public var photoID: String?
     @NSManaged public var dateTaken: Date?
+    @NSManaged public var tags: NSSet?
+
+}
+
+// MARK: Generated accessors for tags
+extension Photo {
+
+    @objc(addTagsObject:)
+    @NSManaged public func addToTags(_ value: Tag)
+
+    @objc(removeTagsObject:)
+    @NSManaged public func removeFromTags(_ value: Tag)
+
+    @objc(addTags:)
+    @NSManaged public func addToTags(_ values: NSSet)
+
+    @objc(removeTags:)
+    @NSManaged public func removeFromTags(_ values: NSSet)
 
 }

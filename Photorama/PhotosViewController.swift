@@ -68,6 +68,7 @@ class PhotosViewController: UIViewController, UICollectionViewDelegate {
             case .failure:
                 self.collectionView.reloadSections(IndexSet(integer: 0))
             }
+            self.collectionView.reloadSections(IndexSet(integer: 0))
         }
     }
 }
